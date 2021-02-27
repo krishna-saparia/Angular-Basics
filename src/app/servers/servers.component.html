@@ -16,5 +16,5 @@
 
 <!--Use *ng-if-->
 <p *ngIf="serverCreated"> Server Was Created and Server Name is {{serverName}}</p>
-<app-server></app-server>
-<app-server></app-server>
+<app-server *ngFor="let i of servers"></app-server>
+
